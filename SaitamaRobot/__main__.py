@@ -218,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add me",
+                                text="✅ Add me",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -226,8 +226,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🚑 Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                text="👨‍🦱 Own",
+                                url="https://t.me/hambatuhanpalingoke",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
